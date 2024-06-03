@@ -1,0 +1,52 @@
+#通用配置，指定环境
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ecut_wall
+    username: root
+    password: root
+  #指定环境
+  profiles:
+    active: dev
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+mybatis:
+  configuration:
+    #开启数据库下划线命名到驼峰命名的自动转换
+    map-underscore-to-camel-case: true
+
+
+---
+#开发环境
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8080
+
+---
+#测试环境
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 8082
+
+---
+#生产环境
+spring:
+  config:
+    activate:
+      on-profile: port
+server:
+  port: 8083
