@@ -26,27 +26,27 @@
 
 ### 分类展示
 
-![屏幕截图 2024-06-04 032723](E:\ECUTWall0\img\屏幕截图 2024-06-04 032723.png)
+![](https://github.com/1626901167/ECUTWall/blob/main/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-04%20032723.png)
 
 ### 文章分页
 
-![屏幕截图 2024-06-04 032551](E:\ECUTWall0\img\屏幕截图 2024-06-04 032551.png)
+![](https://github.com/1626901167/ECUTWall/blob/main/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-04%20032551.png)
 
-![屏幕截图 2024-06-04 032600](E:\ECUTWall0\img\屏幕截图 2024-06-04 032600.png)
+![](https://github.com/1626901167/ECUTWall/blob/main/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-04%20032600.png)
 
-![屏幕截图 2024-06-04 032608](E:\ECUTWall0\img\屏幕截图 2024-06-04 032608.png)
+![](https://github.com/1626901167/ECUTWall/blob/main/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-04%20032608.png)
 
 ### 查询文章
 
-![屏幕截图 2024-06-04 032640](E:\ECUTWall0\img\屏幕截图 2024-06-04 032640.png)
+![](https://github.com/1626901167/ECUTWall/blob/main/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-04%20032640.png))
 
 ### 添加文章
 
-![屏幕截图 2024-06-04 032106](E:\ECUTWall0\img\屏幕截图 2024-06-04 032106.png)
+![](https://github.com/1626901167/ECUTWall/blob/main/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-04%20032106.png)
 
 ### 文件上传
 
-![屏幕截图 2024-06-04 032134](E:\ECUTWall0\img\屏幕截图 2024-06-04 032134.png)
+![](https://github.com/1626901167/ECUTWall/blob/main/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-04%20032134.png)
 
 
 
