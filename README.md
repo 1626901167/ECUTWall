@@ -16,7 +16,7 @@
 
 ### 4.配置Vue组件
 
-​	在ECUTWallVue中文件夹上方输入`cmd`回车进入命令行界面，再下载`Vue`，`ElementPlus`，`router`和`pinia`组件，最后输入`npm dev run`运行Vue文件。
+​	在ECUTWallVue中文件夹上方输入`cmd`回车进入命令行界面，再下载`Vue`，`ElementPlus`，`router`和`pinia`组件，最后输入`npm run dev`运行Vue文件。
 
 ## 2.效果展示
 
