@@ -4,6 +4,7 @@ package com.wwey.controller;
 import com.wwey.pojo.Result;
 import com.wwey.pojo.User;
 import com.wwey.service.UserService;
+import com.wwey.utils.AMQPUtil;
 import com.wwey.utils.JwtUtil;
 import com.wwey.utils.Md5Util;
 import com.wwey.utils.ThreadLocalUtil;
@@ -54,6 +55,9 @@ public class UserController {
 //        }
     }
 
+    @Autowired
+    private AMQPUtil amqp;
+
     @PostMapping("/login")
     public Result<String> login(@Pattern(regexp = "^\\S{4,16}$") String username,
                                 @Pattern(regexp = "^\\S{4,16}$") String password) {
@@ -65,10 +69,13 @@ public class UserController {
             return Result.error("用户名不存在");
         //判断密码是否正确 loginUser对象中的password是密文
         if (loginUser.getPassword().equals(Md5Util.getMD5String(password))) {
+            //向dirck交换机中发送登录信息
+            String un = loginUser.getUsername();
+            amqp.SendDirect("用户" + un + "已登录");
             //登录成功
             Map<String, Object> claims = new HashMap<>();
             claims.put("id", loginUser.getId());
-            claims.put("username", loginUser.getUsername());
+            claims.put("username", un);
             String token = JwtUtil.genToken(claims);
             //把token存储到redis中
             ValueOperations<String ,String> operations = stringRedisTemplate.opsForValue();
